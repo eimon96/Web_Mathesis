@@ -1,0 +1,62 @@
+:root {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    background: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%);
+  }
+  
+h1 {
+    font-size: 5em !important;
+    color: #802145;
+    text-shadow: 5px 5px 4px rgba(0,0,0, 0.75);
+    text-align: center;
+}
+  
+  .song {
+    white-space: pre-line;
+    margin: 1em;
+    font-size: 1.5em;
+    max-width: 30em;
+    line-height: 1.5em;
+    padding: 1em;
+    color: gray;
+  }
+  .verse1:hover , .verse2:hover , .chorus:hover , .bridge:hover , .outro:hover {
+    margin-left: 3em;
+    background-color: #363b41;
+    color: #e1da07;
+    box-shadow: 10px 10px 30px rgba(0,0,0, 0.7);
+    padding: 1em;
+    cursor: context-menu;
+  }
+  .verse1::first-letter , .verse2::first-letter , .chorus::first-letter , .bridge::first-letter , .outro::first-letter , .chor::first-letter{
+    font-size: 2em;
+    font-style: italic;
+    font-family: Times;
+    font-weight: 600;
+    color: black;
+    text-shadow: 0px 3px 0px #5e5e5e, 0px 5px 0px #4d4d4d, 0px 7px 0px #3c3c3c, 0px 9px 0px #2b2b2b, 3px 8px 15px rgba(0,0,0,0.1), 3px 8px 5px rgba(0,0,0,0.3);
+  }
+  .video {
+    float: right;
+    padding-right: 110px;
+    margin-top: 100px;
+  }
+  .chor {
+    font-style: italic;
+  }
+  .disclaimer {
+    margin-top: 7em;
+    font-weight: bolder;
+    white-space: pre-line;
+    background-color: #e1da07;
+  }
+
+  .verse1:hover .pits {
+    white-space: pre;
+  }
+  .chorus:hover .pits2 {
+    white-space: pre;
+  }
+  .verse2:hover .pits3 {
+    white-space: pre;
+  }
