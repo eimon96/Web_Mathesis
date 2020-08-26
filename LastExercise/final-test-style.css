@@ -1,0 +1,42 @@
+:root {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    --btn-color: teal;   /* χρώμα πλήκτρων */
+    --btn-text: whitesmoke;   /* χρώμα κειμένου πλήκτρων */
+    --msg-win-color: rgb(0, 128, 32);  /* χρώμα μηνύματος επιτυχίας */
+    --msg-wrong-color: crimson;  /* χρώμα μηνύματος αποτυχίας */
+    --msg-text:floralwhite;  /* χρώμα κειμένου μηνύματος */
+    --low-high-color: gray;  /* χρώμα ιστορικού προσπαθειών */
+    background-image: url(https://media.npr.org/assets/img/2019/02/28/trh_luck_artwork_wide-f111267a9ffd5e35c3a4cbd67ff137a6448beb4d-s1400-c85.jpg);
+    background-size: cover;
+}
+
+#new-guess {
+    width: 5ch;
+}
+
+#message {
+    background-color: var(--msg-win-color);
+    color: var(--msg-text);
+    font-size: 25px;
+}
+
+#low-high {
+    background-color: var(--msg-wrong-color);
+    color: var(--msg-text);
+    font-size: 20px;
+}
+
+#new-guess {
+    color: var(--btn-color);
+}
+
+#prev {
+    color: var(--low-high-color);
+}
+
+/* 
+8. Στο αρχείο stylesheet final-test-style.css να γίνουν οι κατάλληλες αλλαγές 
+που αφορούν στα στοιχεία που εμφανίζονται στον χρήστη, προσπαθώντας να επιτύχετε 
+το αποτέλεσμα που φαίνεται στην παρουσίαση. ιδιαίτερη αναφορά γίνεται ώστε το χρώμα 
+να οριστεί με βάση τα χρώματα που ορίζονται από τις μεταβλητές CSS. */
